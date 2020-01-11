@@ -1,0 +1,61 @@
+\documentclass[12pt]{book}
+\usepackage{amsmath}
+\begin{document}
+	\title{ \textsc{mathematical type setting}}
+	\author{K S Sarika}
+	\date{ }
+	\maketitle
+	\pagestyle{empty}
+	
+	 \chapter{equations}
+		\section*{inline mode}
+			pythagorean theoram: $x^2 = y^2 + x^2 $\\
+			an eq:$x^{21}=y^{21}$\\
+		\section*{sep line} equation on seperate line$$ E=mc^2$$
+		\subsection{numbered}on numbered\\ the equation of force \begin{equation}F=ma \end{equation} 
+		\\underline{euation of momentum}
+		\begin{equation}
+		p=mv	
+		\end{equation}	
+		\section*{aligning equations}
+		to align start with begin\{align\} and put \& before symbol
+		\begin{align*}
+			x+y &=3\\
+			x-y &=5\\
+			2x &=8\\x &=4\\y &=-1		
+		\end{align*}	
+		\section{fractions}
+		a fractional equation is given below\\
+		$\frac{x+3}{2}=5$
+		\begin{align}
+			x+3 &=10 \nonumber \\x &=7
+		\end{align}
+		\section*{subscript}
+		water formation$$2H_2 + O_2 =2H_2O $$
+		\section*{sub and superscript}
+		$$ x= \frac{-b \pm\sqrt{b^2-4ac}}{2a}$$
+		\section*{matrix}
+		\subsection*{plain matrix}
+				$$\begin{matrix}
+					2 & 3 & 4 \\ 4 & 5 & 6
+				\end{matrix}$$
+		\subsection{rounded}
+				$$\begin{pmatrix}
+					2 & 3 & 4\\ 5 & 6 & 7
+				\end{pmatrix}$$
+		\subsection*{square}
+				$$\begin{Bmatrix}
+					2 & 3 & 4\\ 5 & 6 & 7
+				\end{Bmatrix}$$
+		\subsection*{pipes}
+				$$begin{vmatrix}
+ 				  	2 & 3 & 4\\ 5 & 6 & 7
+				\end{vmatrix}$$
+		\section*{display}
+		$$f(x)=\displaystyle \frac{1}{x+2}$$
+		\begin{algorithm}
+	\caption{algorithm}
+	\kwResult{algorithm}
+\end{algorithm}
+
+\end{document}
